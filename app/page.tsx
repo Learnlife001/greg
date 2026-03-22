@@ -87,7 +87,7 @@ export default function Home() {
 
           <div className="flex flex-wrap items-center justify-center gap-4 animate-fade-up delay-400 opacity-0" style={{ animationFillMode: 'forwards' }}>
             <a 
-              href="/OKUMA G. CHIGOZIE .pdf" 
+              href="/OKUMA.G.CHIGOZIE.pdf" 
               target="_blank"
               rel="noopener noreferrer"
               className="group inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-primary to-accent px-6 py-3 font-medium text-primary-foreground shadow-lg shadow-primary/25 transition-all hover:shadow-xl hover:shadow-primary/30 hover:scale-105"
@@ -137,7 +137,7 @@ export default function Home() {
                 </div>
                 <div>
                   <p className="text-foreground font-medium">B.Sc. Computer and Information Science</p>
-                  <p className="text-sm">Zhejiang University of Science and Technology - June 2025</p>
+                  <p className="text-sm">Zhejiang University of Science and Technology 2025(awaiting certificate)</p>
                 </div>
               </div>
             </div>
@@ -149,7 +149,7 @@ export default function Home() {
               </div>
             </div>
             <a 
-              href="/OKUMA G. CHIGOZIE .pdf" 
+              href="/OKUMA.G.CHIGOZIE.pdf" 
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-primary font-medium hover:underline"
