@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+
+{% block title %}Projects | Greg Lab Portfolio{% endblock %}
+
+{% block content %}
+<section class="projects-page">
+    <h1>Projects</h1>
+    
+    <article class="project-detail">
+        <h2>Honeypot Monitoring System</h2>
+        
+        <div class="project-section">
+            <h3>Problem</h3>
+            <p>
+                Organizations need early warning systems to detect malicious activity before 
+                attackers reach critical infrastructure. Traditional security tools often miss 
+                novel attack patterns and provide limited visibility into attacker behavior.
+            </p>
+        </div>
+        
+        <div class="project-section">
+            <h3>Tools Used</h3>
+            <ul class="tools-list">
+                <li>Python</li>
+                <li>Docker</li>
+                <li>Elasticsearch</li>
+                <li>Kibana</li>
+                <li>AWS EC2</li>
+            </ul>
+        </div>
+        
+        <div class="project-section">
+            <h3>Architecture</h3>
+            <p>
+                Deployed multiple honeypot instances across cloud infrastructure to simulate 
+                vulnerable services. Centralized logging captures all interaction data, which 
+                is processed and visualized in real-time dashboards for threat intelligence.
+            </p>
+        </div>
+    </article>
+    
+    <article class="project-detail">
+        <h2>CyberRecon Scanner</h2>
+        
+        <div class="project-section">
+            <h3>Problem</h3>
+            <p>
+                Security assessments require gathering extensive information about target 
+                infrastructure. Manual reconnaissance is time-consuming and prone to missing 
+                critical details that could reveal vulnerabilities.
+            </p>
+        </div>
+        
+        <div class="project-section">
+            <h3>Tools Used</h3>
+            <ul class="tools-list">
+                <li>Python</li>
+                <li>Nmap</li>
+                <li>Shodan API</li>
+                <li>DNS libraries</li>
+                <li>SQLite</li>
+            </ul>
+        </div>
+        
+        <div class="project-section">
+            <h3>Architecture</h3>
+            <p>
+                Modular Python application that automates passive and active reconnaissance. 
+                Integrates multiple data sources and APIs to build comprehensive target profiles. 
+                Results are stored in a local database for analysis and reporting.
+            </p>
+        </div>
+    </article>
+</section>
+{% endblock %}
