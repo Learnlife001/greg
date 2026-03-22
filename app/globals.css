@@ -124,7 +124,6 @@
   }
 }
 
-/* Custom Animations */
 @keyframes float {
   0%, 100% { transform: translateY(0px); }
   50% { transform: translateY(-10px); }
@@ -208,7 +207,6 @@
 .delay-400 { animation-delay: 0.4s; }
 .delay-500 { animation-delay: 0.5s; }
 
-/* Particle background */
 .particles {
   position: fixed;
   top: 0;
