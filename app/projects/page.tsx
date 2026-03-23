@@ -63,7 +63,6 @@ export default function ProjectsPage() {
       <Navbar />
       
       <main className="relative z-10 mx-auto w-full max-w-6xl flex-1 px-6 py-16">
-        {/* Header */}
         <div className="mb-12">
           <Link 
             href="/"
@@ -84,7 +83,6 @@ export default function ProjectsPage() {
           </p>
         </div>
 
-        {/* Projects Grid */}
         <div className="grid gap-8">
           {allProjects.map((project, index) => (
             <div 
@@ -92,16 +90,13 @@ export default function ProjectsPage() {
               className="group relative rounded-2xl border border-border/50 bg-card/50 p-8 backdrop-blur-sm transition-all duration-300 hover:border-primary/50 hover:bg-card/80 hover:shadow-xl hover:shadow-primary/5 opacity-0 animate-fade-up"
               style={{ animationDelay: `${(index + 2) * 100}ms`, animationFillMode: 'forwards' }}
             >
-              {/* Glow effect */}
               <div className="absolute inset-0 -z-10 rounded-2xl bg-gradient-to-br from-primary/5 to-accent/5 opacity-0 transition-opacity group-hover:opacity-100" />
               
               <div className="flex flex-col lg:flex-row lg:items-start lg:gap-8">
-                {/* Icon */}
                 <div className={`flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br ${project.color} mb-4 lg:mb-0`}>
                   <project.icon className="h-8 w-8 text-white" />
                 </div>
                 
-                {/* Content */}
                 <div className="flex-1">
                   <div className="mb-3">
                     <h2 className="text-2xl font-semibold text-foreground group-hover:text-primary transition-colors">

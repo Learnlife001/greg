@@ -59,7 +59,6 @@ export default function Home() {
       <Navbar />
       
       <main className="relative z-10 mx-auto w-full max-w-6xl flex-1 px-6 py-16">
-        {/* Hero Section */}
         <section className="mb-24 pt-12 text-center">
           <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-primary/30 bg-primary/10 px-4 py-1.5 text-sm font-medium text-primary animate-fade-up">
             <Shield className="h-4 w-4" />
@@ -108,7 +107,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Skills Section */}
         <section className="mb-24">
           <div className="mb-8 flex items-center gap-3">
             <Code className="h-6 w-6 text-primary" />
@@ -121,7 +119,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Resume Preview */}
         <section className="mb-24">
           <div className="mb-8 flex items-center gap-3">
             <FileText className="h-6 w-6 text-primary" />
@@ -160,7 +157,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Featured Projects */}
         <section className="mb-16">
           <div className="mb-8 flex items-center gap-3">
             <Server className="h-6 w-6 text-primary" />
@@ -177,7 +173,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* CTA Section */}
         <section className="rounded-2xl border border-border/50 bg-gradient-to-br from-primary/5 via-card/50 to-accent/5 p-8 text-center backdrop-blur-sm animate-fade-up opacity-0" style={{ animationDelay: '400ms', animationFillMode: 'forwards' }}>
           <Cloud className="mx-auto mb-4 h-12 w-12 text-primary" />
           <h2 className="mb-3 text-2xl font-semibold">Let&apos;s Work Together</h2>

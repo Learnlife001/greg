@@ -5,7 +5,6 @@ export function Footer() {
     <footer className="relative mt-auto border-t border-border/50 bg-card/50 backdrop-blur-sm">
       <div className="mx-auto max-w-6xl px-6 py-12">
         <div className="grid gap-8 md:grid-cols-3">
-          {/* Brand */}
           <div>
             <h3 className="mb-3 text-xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
               Greg Lab
@@ -15,7 +14,6 @@ export function Footer() {
             </p>
           </div>
 
-          {/* Contact Info */}
           <div>
             <h4 className="mb-3 font-semibold text-foreground">Contact</h4>
             <div className="flex flex-col gap-2 text-sm text-muted-foreground">
@@ -28,7 +26,6 @@ export function Footer() {
             </div>
           </div>
 
-          {/* Social Links */}
           <div>
             <h4 className="mb-3 font-semibold text-foreground">Connect</h4>
             <div className="flex gap-4">
