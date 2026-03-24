@@ -20,7 +20,6 @@ export function Navbar() {
           <span className="absolute -inset-1 -z-10 rounded-lg bg-gradient-to-r from-primary/20 to-accent/20 opacity-0 blur transition-opacity group-hover:opacity-100" />
         </Link>
         
-        {/* Desktop Navigation */}
         <div className="hidden items-center gap-8 md:flex">
           <Link
             href="/"
@@ -60,7 +59,6 @@ export function Navbar() {
           </div>
         </div>
 
-        {/* Mobile Menu Button */}
         <button 
           className="md:hidden p-2 text-muted-foreground hover:text-foreground"
           onClick={() => setIsOpen(!isOpen)}
@@ -69,7 +67,6 @@ export function Navbar() {
         </button>
       </div>
 
-      {/* Mobile Navigation */}
       {isOpen && (
         <div className="md:hidden border-t border-border/50 bg-background/95 backdrop-blur-xl animate-fade-up">
           <div className="flex flex-col gap-4 px-6 py-4">

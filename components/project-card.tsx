@@ -17,7 +17,6 @@ export function ProjectCard({ title, description, tags, detailsUrl, githubUrl, d
       className="group relative rounded-2xl border border-border/50 bg-card/50 p-6 backdrop-blur-sm transition-all duration-300 hover:border-primary/50 hover:bg-card/80 hover:shadow-xl hover:shadow-primary/5 hover:-translate-y-1 opacity-0 animate-fade-up"
       style={{ animationDelay: `${delay}ms`, animationFillMode: 'forwards' }}
     >
-      {/* Glow effect */}
       <div className="absolute inset-0 -z-10 rounded-2xl bg-gradient-to-br from-primary/5 to-accent/5 opacity-0 transition-opacity group-hover:opacity-100" />
       
       <h3 className="mb-3 text-xl font-semibold text-foreground group-hover:text-primary transition-colors">
