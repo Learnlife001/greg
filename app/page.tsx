@@ -23,10 +23,10 @@ const skills = [
 
 const projects = [
   {
-    title: "Cloud Security Monitoring & Log Analysis System",
+    title: "Cloud Honeypot SOC Monitoring Platform",
     description: "Python-based honeypot data monitoring system for ingesting and processing log data, detecting patterns in system and network activity with Grafana dashboards.",
     tags: ["Python", "Grafana", "Log Analysis", "Security"],
-    detailsUrl: "https://www.youtube.com/watch?v=XP2Ft1XvRCI",
+    detailsUrl: "https://soc.greglabs.nl",
     githubUrl: "https://github.com/Learnlife001/cowrie-geoalert-honeypot"
   },
   {
