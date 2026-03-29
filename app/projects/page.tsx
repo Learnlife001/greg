@@ -16,11 +16,11 @@ const allProjects = [
     color: "from-blue-500 to-cyan-500"
   },
   {
-    title: "Cloud Security Monitoring & Log Analysis System",
+    title: "Cloud Honeypot SOC Monitoring Platform",
     subtitle: "Honeypot Data Monitoring",
     description: "Built a Python-based honeypot data monitoring system to ingest and process log data, detecting patterns in system and network activity. Developed dashboards using Grafana to support threat visibility and monitoring of potential security events.",
     tags: ["Python", "Grafana", "Log Analysis", "Security", "Threat Detection", "Monitoring"],
-    detailsUrl: "https://www.youtube.com/watch?v=XP2Ft1XvRCI",
+    detailsUrl: "https://soc.greglabs.nl",
     githubUrl: "https://github.com/Learnlife001/cowrie-geoalert-honeypot",
     icon: Shield,
     color: "from-emerald-500 to-teal-500"
